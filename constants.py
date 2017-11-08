@@ -17,13 +17,13 @@ NUMBER_OF_LAYERS = 2 # how many layers of LSTM's we want for our decoder
 # *** file paths *** 
 FILE_TRAINING_DATA = 'data/friends-final.txt'
 
-FILE_TRAINING_DATA_EXTRACT = 'workingdata/friends_dialog_extract.pickle'
+FILE_TRAINING_DATA_EXTRACT = 'localdata/friends_dialog_extract.pickle'
 
-FILE_TRAINING_DATA_ENCODER_INPUTS = 'workingdata/friends_encoder_input.pickle'
-FILE_TRAINING_DATA_DECODER_INPUTS = 'workingdata/friends_decoder_input.pickle'
-FILE_VOCAB = 'workingdata/friends_vocab.pickle'
+FILE_TRAINING_DATA_ENCODER_INPUTS = 'localdata/friends_encoder_input.pickle'
+FILE_TRAINING_DATA_DECODER_INPUTS = 'localdata/friends_decoder_input.pickle'
+FILE_VOCAB = 'localdata/friends_vocab.pickle'
 
-FILE_EMBEDDING_MATRIX = 'workingdata/friends_embedding_matrix.npy'
+FILE_EMBEDDING_MATRIX = 'localdata/friends_embedding_matrix.npy'
 FILE_WEIGHTS = 'localdata/friends_weights.h5'
 
 GLOVE_DIR = 'localdata/glove.6B/'
